@@ -1,80 +1,76 @@
 body {
-    margin-left:3rem;
-    background-color: #2e294e;
-    overflow: hidden;
+  /* margin-left: 3rem; */
+  background-color: #2e294e;
+  /*   overflow: hidden; */
 }
-main{
-    margin-left:3%;
-    margin-top: 5%;
+main {
+  margin-left: 5%;
+  margin-top: 5%;
 }
 
 h1 {
-     /* Configuração básica da fonte */
-    color: #FF7DCC;
-    font-family: 'Space Mono', monospace;
-    font-weight: 700;
-    line-height: 3.3rem;
-    font-size: 32px;
-    
-    /* Configuração de posições */
-    width: 30vw;
+  /* Configuração básica da fonte */
+  color: #ff7dcc;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  line-height: 3.3rem;
+  font-size: 32px;
 
+  /* Configuração de posições */
+  width: 35%;
 }
 
 p {
-    /* Configuração básica da fonte */
-    color: #FF7DCC;
-    font-family: 'Carrois Gothic', sans-serif;
-    font-weight: 400;
-    line-height: 2.5rem;
-    font-size: 32px;
+  /* Configuração básica da fonte */
+  color: #ff7dcc;
+  font-family: 'Carrois Gothic', sans-serif;
+  font-weight: 400;
+  line-height: 2.5rem;
+  font-size: 32px;
 
-    /* Configuração de posições */
-    width: 30vw;
-    
+  /* Configuração de posições */
+  width: 35%;
 }
 
 .art {
- /* position: absolute;  */
-    margin-right: 8%;
-    max-width: 100%;
-    max-height: 100%;
+  /* position: absolute;  */
+  margin-right: 8%;
+  max-width: 100%;
+  max-height: 100%;
 }
-
-
 
 .art {
-    height: 800px;
-    width: 950px;
-    position: fixed;
-    left: 55vw;
-    top: 14vh;
-    
+  /* height: 800px;
+  width: 950px; */
+  position: absolute;
+  left: 55vw;
+  top: 14vh;
 }
 
-.box{
-    display:inline;
-    border-radius: 15px
-    
+.box {
+  width: 100%;
+  display: inline;
+  border-radius: 15px;
 }
 
 .input {
-    width: 25vw;
-    height: 9vh;
-    border-radius: 15px;
-    border: none;
-    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
-    
-
-
+  width: 25vw;
+  height: 9vh;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
 }
-::placeholder{
-    /* position: absolute; */
-    left: 1vw;
-    top: 34%;
-    font-family: "Space Mono", monospace;
-    font-size: 24px;
-    color: #53FA01;
+::placeholder {
+  padding-left: 3%;
+
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+  color: #53fa01;
 }
 
 /* .enter{
@@ -90,17 +86,20 @@ p {
 
 } */
 
-button{
+button {
+  width: 5vw;
+  height: 9vh;
+  border-radius: 15px;
+  border: none;
+  background: #53fa01;
 
-    width: 5vw;
-    height:9vh;
-    border-radius: 15px;
-    border: none;
-    background: #53FA01;
-    
-    margin-left: 3%;
-    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
-    
+  margin-left: 3%;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
 }
 
 /* button :hover{
@@ -117,23 +116,22 @@ button{
 } */
 
 ul {
-    
-    margin-top: 4%;
-    width: 45%;
-    list-style: none;
-    display: flex ;
+  margin-top: 4%;
+  width: 45%;
+  list-style: none;
+  display: flex;
 }
 /* li{
 } */
-.textHeader{
-    margin: auto;
-    font-family: 'Space Mono', monospace;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    color: #FF7DCC;
+.textHeader {
+  margin: auto;
+  font-family: 'Space Mono', monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ff7dcc;
 }
-a{
-    text-decoration:none
+a {
+  text-decoration: none;
 }
