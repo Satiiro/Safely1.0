@@ -1,7 +1,7 @@
 body {
   margin: 5rem;
   background-color: #2e294e;
-  overflow-x: hidden;
+  overflow: hidden;
   height: 100%;
 }
 ul {
@@ -82,8 +82,8 @@ div {
 .rform {
   position: absolute;
   padding: 3.5%;
-
-  background-color: red;
+  margin: auto;
+  background-color: white;
   border-radius: 32px;
   width: 30vw;
   height: 55vh;
@@ -94,11 +94,12 @@ div {
 ::placeholder {
   font-family: 'Space Mono', monospace;
   font-size: 20px;
-  color: #ff7dcc;
+  color: #EC1D9B;
   padding-left: 16px;
 }
 
 input {
+  margin-top: 5%;
   width: 30vw;
   height: 5vh;
   border-radius: 6px;
@@ -110,7 +111,33 @@ input {
     drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725))
     drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
   font-family: 'Space Mono', monospace;
-  color: #ff7dcc;
+  color: #EC1D9B;
   font-size: 20px;
   padding-left: 16px;
+}
+
+.mensagem {
+  width: 100%;
+  height: 45%;
+  border-radius: 6px;
+  border: none;
+  filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07))
+    drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198))
+    drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275))
+    drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035))
+    drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725))
+    drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+  font-family: 'Space Mono', monospace;
+  color: #EC1D9B;
+  font-size: 20px;
+  
+  
+}
+
+ .fname ::placeholder {
+  font-family: 'Space Mono', monospace;
+  font-size: 20px;
+  color: #EC1D9B;
+  padding-left: 16px;
+  margin-bottom: 25px;
 }
