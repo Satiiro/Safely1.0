@@ -11,6 +11,7 @@ ul {
   display: flex;
 }
 
+
 .textHeader {
   margin: auto;
   font-family: 'Space Mono', monospace;
@@ -21,6 +22,8 @@ ul {
   color: #ff7dcc;
 }
 a {
+  margin-right: auto;
+  margin-left: 1%;
   text-decoration: none;
 }
 
@@ -91,7 +94,8 @@ div {
   top: 25%;
 }
 
-::placeholder {
+  ::placeholder {
+  position: relative;
   font-family: 'Space Mono', monospace;
   font-size: 20px;
   color: #EC1D9B;
@@ -134,10 +138,10 @@ input {
   
 }
 
- .fname ::placeholder {
+ .mensagem ::placeholder {
   font-family: 'Space Mono', monospace;
   font-size: 20px;
   color: #EC1D9B;
   padding-left: 16px;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }

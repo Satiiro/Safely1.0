@@ -8,6 +8,7 @@ main {
   margin-top: 5%;
 }
 
+
 h1 {
   /* Configuração básica da fonte */
   color: #ff7dcc;
@@ -49,7 +50,7 @@ p {
 
 .box {
   width: 100%;
-  display: inline;
+  display: flex;
   border-radius: 15px;
 }
 
@@ -70,7 +71,7 @@ p {
 
   font-family: 'Space Mono', monospace;
   font-size: 24px;
-  color: #53fa01;
+  color: #000000;
 }
 
 /* .enter{
@@ -87,16 +88,13 @@ p {
 } */
 
 button {
-  position: fixed;
   width: 4.5vw;
   height: 8.6vh;
   border-radius: 15px;
   border: none;
   background: #53fa01;
-  left: 406px;
-  top: 665;
-
-  margin-left: 3%;
+  margin-left: 1.8%;
+ 
   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
     0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
     0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
@@ -136,5 +134,6 @@ ul {
   color: #ff7dcc;
 }
 a {
+  margin:auto ;
   text-decoration: none;
 }
