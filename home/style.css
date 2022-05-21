@@ -117,3 +117,16 @@ a {
   margin: auto;
   text-decoration: none;
 }
+
+footer {
+  margin-left: 4.5rem;
+  margin-top: 2rem;
+  font-family: 'Space Mono', monospace;
+  color: #ff7dcc;
+  font-size: 26px;
+
+}
+
+.icones {
+  margin-top: 1rem;
+}

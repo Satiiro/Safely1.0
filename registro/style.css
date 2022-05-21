@@ -1,0 +1,124 @@
+body{
+    background-color:#2e294e ;
+}
+
+main {
+    font-family: "Space Mono", monospace;
+    color: #FF7DCC;
+    font-size: 25px;
+    margin-top: 3rem;
+}
+
+.textinho {
+    font-family: "Carrois Gothic", sans-serif;
+
+}
+
+
+ul {
+    margin-top: 4%;
+    width: 50%;
+    list-style: none;
+    display: flex;
+}
+
+.textHeader {
+    margin: auto;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ff7dcc;
+}
+
+a {
+    margin: auto;
+    text-decoration: none;
+}
+
+main {
+    width: 36%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+input{
+    margin-top: 1rem;
+    font-family: "Space Mono", monospace;
+    color: #FF7DCC;
+}
+
+::placeholder {
+    position: relative;
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    color: #ff7dcc;
+    padding-left: 16px;
+  }
+.name{
+    width: 15vw;
+    height: 5vh;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+.sobrenome{
+    width: 16vw;
+    height: 5vh;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+.email {
+    width: 32.3vw;
+    height: 5vh;
+    display: block;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+.senha {
+    width: 32.3vw;
+    height: 5vh;
+    border-radius: 8px;
+    border: none;
+    display: block;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+.rg {
+    width: 32.2vw;
+    height: 5vh;
+    border-radius: 8px;
+    border: none;
+    display: block;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+.cpf{
+    border: none;
+    border-radius: 8px;
+    width: 32.3vw;
+    height: 5vh;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+.Registro {
+    position: absolute;
+    left:60%;
+    top: 20%;
+    
+}
+
+button {
+    background-color: #53fa01;
+    margin-top: 3%;
+    width: 10vw;
+    height: 8vh;
+    border-radius: 9px;
+    border: none;
+    margin-left: 30%;
+    font-family: "Space Mono", monospace;
+    font-size: 20px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
